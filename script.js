@@ -20,6 +20,7 @@ document.querySelector('.busca').addEventListener('submit', async (event) =>{
                 country: json.sys.country,
                 temp: json.main.temp,
                 tempIcon: json.weather[0].icon,
+                description: json.weather[0].description,
                 windSpeed: json.wind.speed,
                 windAngle: json.wind.deg    
             })
@@ -48,6 +49,8 @@ function showInfo(json){
     
     document.querySelector('.ventoPonto').style.transform = `rotate(${json.windAngle-90}deg)`
     
+    document.querySelector('.tempDescription').innerHTML = `${json.description}`
+
     //Pegando cada elemento atraves do objeto
     document.querySelector('.resultado').style.display = 'block'
 }
