@@ -87,6 +87,14 @@ h1 {
     font-size: 30px;
     font-weight: bold;
 }
+
+.tempDescription {
+    color: #777;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: -22px;
+}
+
 .tempInfo sup {
     font-size: 15px;
     font-weight: normal;
@@ -96,17 +104,17 @@ h1 {
     font-weight: normal;
 }
 .ventoArea {
-    width: 50px;
-    height: 50px;
+    width: 46px;
+    height: 46px;
     border: 1px solid #FFF;
     border-radius: 50%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-left: 25px;
     padding-top: 25px;
 }
 .ventoPonto {
-    width: 15px;
+    width: 14px;
     height: 1px;
     background-color: #FFF;
     transform-origin: left;
