@@ -28,6 +28,8 @@ h1 {
     display: flex;
     width: 300px;
 }
+
+/* Input de pesquisa */
 .busca #searchInput {
     flex: 1;
     padding: 10px;
@@ -36,6 +38,7 @@ h1 {
     border-radius: 5px;
     border: 0;
 }
+/* Botao de pesquisa */
 .busca button {
     padding: 10px;
     font-size: 15px;
@@ -49,6 +52,7 @@ h1 {
     text-transform: uppercase;
     
 }
+/* Ao passar do mouse no botão */
 .busca button:hover {
     background-color: #444;
 }
@@ -60,6 +64,7 @@ h1 {
     margin-top: 20px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .titulo {
