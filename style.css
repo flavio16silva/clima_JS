@@ -90,9 +90,10 @@ h1 {
 }
 .tempTitulo,
 .ventoTitulo {
-    color: #777;
+    color: #fff;
     font-size: 16px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 .tempInfo,
 .ventoInfo {
@@ -102,10 +103,11 @@ h1 {
 }
 
 .tempDescription {
-    color: #777;
+    color: #fff;
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: -22px;
+    font-weight: bold;
 }
 
 .tempInfo sup {
